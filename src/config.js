@@ -2,7 +2,7 @@
 
 export const GAME_TITLE = 'INKWAVE';
 export const GAME_SUBTITLE = 'Turf Riot';
-export const VERSION = '1.0.0';
+export const VERSION = '1.1.1';
 
 // Team ink palettes. Team 0 ("Alpha") is always the local player's team; a palette is picked per match.
 export const TEAM_PALETTES = [
@@ -560,7 +560,7 @@ export const PROGRESSION = {
 
 // ---- Settings defaults (persisted in localStorage 'inkwave.settings') ----
 export const DEFAULT_SETTINGS = {
-  lang: 'en',               // ui language: 'en' | 'zh' (src/i18n/strings.js; mirrored in localStorage 'inkwave.lang')
+  lang: 'zh',               // ui language: 'en' | 'zh' (src/i18n/strings.js; mirrored in localStorage 'inkwave.lang')
   sensitivity: 1.0,         // mouse multiplier 0.2..3
   padSensitivity: 1.0,
   invertY: false,

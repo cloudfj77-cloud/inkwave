@@ -16,7 +16,7 @@ const STORE_KEY = 'inkwave.lang';
 /** Supported languages, in menu order. `label` is the native name (never translated). */
 export const LANGUAGES = [
   { id: 'en', label: 'English' },
-  { id: 'zh', label: '中文' },
+  { id: 'zh', label: '简体中文' },
 ];
 
 const EN = {
@@ -241,7 +241,7 @@ const ZH = {
 const DICTS = { en: EN, zh: { ...ZH, ...ZH_PHRASES } };
 
 const listeners = new Set();
-let lang = 'en';
+let lang = 'zh';
 
 try {
   const v = localStorage.getItem(STORE_KEY);

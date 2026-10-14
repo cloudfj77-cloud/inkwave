@@ -935,7 +935,7 @@ export class Menus {
       h('div', { class: 'iw-profile__stats' },
         h('div', null, h('b', null, fmtInt(prof.wins)), h('span', null, 'WINS')),
         h('div', null, h('b', null, fmtInt(prof.played)), h('span', null, 'MATCHES')),
-        nextRank ? h('div', { class: 'iw-profile__next' }, h('span', null, 'NEXT RANK'), h('b', null, `LV ${nextRank.lv}`)) : null));
+        nextRank ? h('div', { class: 'iw-profile__next' }, h('span', null, 'NEXT RANK'), h('b', null, t('LV {n}', { n: nextRank.lv }))) : null));
     const kit = this._panel('iw-kitcard iw-in iw-in--right',
       h('div', { class: 'iw-kitcard__label' }, 'CURRENT LOADOUT'),
       h('div', { class: 'iw-kitcard__main' },

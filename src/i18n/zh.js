@@ -57,7 +57,7 @@ export const ZH_PHRASES = {
   'Couldn’t open a room': '无法创建房间',
   'ONLINE ONLY': '仅限联机', 'NO BOTS': '无机器人',
   'PRESS ANY BUTTON': '按任意键开始', 'PRESS ANY KEY': '按任意键开始', 'or click to start': '或点击开始',
-  'Press JOIN (or Enter) to hop in': '按 JOIN（或 Enter）加入',
+  'Press JOIN (or Enter) to hop in': '点击“加入”（或按 Enter）进入房间',
   '↑↓ pick a letter · A to confirm': '↑↓ 选字母 · A 确认',
   'Type or paste the code': '输入或粘贴房间码',
   'CANCEL': '取消', 'Cancel': '取消',
@@ -92,6 +92,20 @@ export const ZH_PHRASES = {
   'Everyone’s ready — waiting for {name}': '全员就绪——等待 {name}',
   '{n} of {m} ready': '{n} / {m} 已准备',
   'Waiting for {names}': '等待 {names}', 'Getting ready…': '准备中…',
+
+  'Twinfin Dualies': '双鳍双枪',
+  'Twin pistols, alternating fire. Jump while firing to dodge-roll, then plant and unload.': '双枪交替开火。射击时跳跃可翻滚闪避，落稳后集中火力。',
+  'Tidebucket Slosher': '潮汐泼墨桶',
+  'Heaves a heavy wave of ink in an arc: over cover, up ledges, a thick stripe where it lands.': '沿弧线泼出厚重墨浪，越过掩体、冲上高台，在落点留下一道浓墨。',
+  'Gyre Splatling': '旋涡加特林',
+  'Hold to spin up, release for a long high-speed stream. The more charge, the longer it lasts.': '长按蓄力旋转，松开后高速连续射击。蓄力越久，射击持续越长。',
+
+  'Turf War · Zone Control · Boss Battle': '占地对战 · 区域控制 · 首领战',
+  'Play with friends · private rooms': '与好友一起玩 · 私人房间',
+  'LIVE': '联机',
+  'MATCHES': '对局',
+  'CURRENT LOADOUT': '当前装备',
+  'LV {n}': '等级 {n}',
 
   // ================================================================ shared / chrome
   'INKWAVE — Turf Riot': 'INKWAVE · 涂地大乱斗',
@@ -162,7 +176,7 @@ export const ZH_PHRASES = {
   'Rules · Controls': '规则 · 按键',
 
   // stage names
-  'Tidewater Plaza': '潮水广场',
+  'Tidewater Plaza': '海滨钟楼广场',
   'Kelpline Terminal': '绞缆码头',
   'Halyard Marina': '吊索船坞',
   'Saltpan Basin': '盐田盆地',
@@ -170,7 +184,7 @@ export const ZH_PHRASES = {
   'Lockgate Canals': '船闸运河',
   'Terrace Heights': '阶梯高地',
   'Cargo Terminal': '货柜码头',
-  'A Victorian seaside square: fight round the Jubilee clock tower, under the colonnade and along the promenade.': '维多利亚风的海滨广场：围着 jubilee 钟楼交战，穿过柱廊，沿滨海步道推进。',
+  'A Victorian seaside square: fight round the Jubilee clock tower, under the colonnade and along the promenade.': '维多利亚风的海滨广场：围绕纪念钟楼交战，穿过柱廊，沿滨海步道推进。',
   'A container terminal at shift change: a gantry crane straddles the pier between two moored ships. Mind the water.': '换班时的集装箱码头：一座龙门吊横跨在两艘停泊船只之间的栈桥上。小心落水。',
   'Floating docks, a tug on blocks and a car ferry moored across the middle. Mind the water.': '漂浮的浮码头、搁在垫块上的拖船，还有一艘横停在中央的车客渡轮。小心落水。',
   'An open salt works: sunken pans and boardwalks round a wind pump, with the shed roof and salt heap as high ground.': '开阔的盐场：沉洼的盐池与环绕风车的木栈道，工棚屋顶和盐堆是制高点。',
@@ -493,7 +507,7 @@ export const ZH_PHRASES = {
   'The match never got going.': '对局没能开始。',
   'Please refresh the page — the game was updated': '请刷新页面——游戏已更新',
   'You left the room': '你离开了房间',
-  'Team Alpha is full': 'Alpha 队已满', 'Team Bravo is full': 'Bravo 队已满',
+  'Team Alpha is full': '甲队已满', 'Team Bravo is full': '乙队已满',
   'Needs 2+ players — no bots on this stage': '需要 2 名以上玩家——此场地没有机器人',
   'Needs a player on each team': '每队至少需要一名玩家',
 

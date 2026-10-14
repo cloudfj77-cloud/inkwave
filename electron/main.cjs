@@ -120,13 +120,13 @@ function buildMenu() {
   Menu.setApplicationMenu(Menu.buildFromTemplate([
     { role: 'appMenu' },
     {
-      label: 'View',
+      label: '查看',
       submenu: [
         { role: 'togglefullscreen' },
         { type: 'separator' },
         { role: 'reload' },
         { role: 'toggleDevTools' },
-        { label: 'GPU Info', click: () => new BrowserWindow({ width: 900, height: 700 }).loadURL('chrome://gpu') },
+        { label: '显卡信息', click: () => new BrowserWindow({ width: 900, height: 700 }).loadURL('chrome://gpu') },
       ],
     },
     { role: 'windowMenu' },

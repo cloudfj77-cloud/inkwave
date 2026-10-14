@@ -19,7 +19,7 @@ export function h(tag, props = null, ...kids) {
       } else if (k === 'data') { for (const d in v) el.dataset[d] = v[d]; }
       else if (k === 'html') el.innerHTML = v;
       else if (k === 'text') el.textContent = t(v);
-      else if (k === 'title' && typeof v === 'string') el.title = t(v);
+      else if ((k === 'title' || k === 'aria-label') && typeof v === 'string') el.setAttribute(k, t(v));
       else if (k.startsWith('on') && typeof v === 'function') el.addEventListener(k.slice(2).toLowerCase(), v);
       else if (v === true) el.setAttribute(k, '');
       else el.setAttribute(k, v);

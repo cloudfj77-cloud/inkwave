@@ -58,7 +58,7 @@ class Game {
     // real top-down thumbnails for the stage cards, generated from each layout's geometry
     for (const m of MAPS) { try { m.thumb = layoutThumbSVG(MAP_LAYOUTS[m.layout || m.id], m.theme); } catch (e) { console.warn('thumb', m.id, e); } }
     this.settings = G.settings = loadJSON('inkwave.settings', DEFAULT_SETTINGS);
-    setLang(this.settings.lang || 'en');   // before any menu renders (src/i18n/strings.js)
+    setLang(this.settings.lang || DEFAULT_SETTINGS.lang);   // before any menu renders (src/i18n/strings.js)
     document.title = t('INKWAVE — Turf Riot');
     // desktop app: the window's fullscreen state is owned by the native shell; mirror it into settings for the menu
     if (window.inkwaveNative) {

@@ -43,6 +43,14 @@
   text-shadow: 0 .085em 0 var(--k), 0 .16em .12em rgba(0, 0, 0, .28);
 }
 
+/* Latin display fonts have no Chinese glyphs; use a bold CJK face for readable headings. */
+html:lang(zh) .iw-display {
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
+  font-weight: 800;
+  letter-spacing: .02em;
+  -webkit-text-stroke: .08em var(--k);
+}
+
 /* ------------------------------------------------------------------ layers */
 .iw-ui { z-index: 20; pointer-events: none; }
 .iw-ui.is-active { pointer-events: auto; }

@@ -1,8 +1,8 @@
 {
   "name": "inkwave",
-  "productName": "INKWAVE",
-  "version": "1.1.0",
-  "description": "An original Splatoon-style 4v4 turf-war shooter for the browser, built on three.js.",
+  "productName": "INKWAVE 中文版",
+  "version": "1.1.1",
+  "description": "INKWAVE 中文版：基于 Three.js 的 4v4 墨水占地对战，默认简体中文，包含八张地图。",
   "main": "electron/main.cjs",
   "scripts": {
     "start": "electron .",
@@ -21,7 +21,8 @@
     "build": "python3 tools/build-dist.py",
     "release": "./tools/release-pages.sh",
     "deploy-relay": "cd server && wrangler deploy",
-    "relay": "cd server && wrangler dev --ip 0.0.0.0 --port 8787"
+    "relay": "cd server && wrangler dev --ip 0.0.0.0 --port 8787",
+    "test": "node --test tools/i18n.test.mjs"
   },
   "keywords": [
     "game",
@@ -38,10 +39,10 @@
   "homepage": "https://inkwave-aah.pages.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaydendavisnc/inkwave.git"
+    "url": "https://github.com/cloudfj77-cloud/inkwave.git"
   },
   "bugs": {
-    "url": "https://github.com/jaydendavisnc/inkwave/issues"
+    "url": "https://github.com/cloudfj77-cloud/inkwave/issues"
   },
   "dependencies": {
     "three": "^0.186.0"

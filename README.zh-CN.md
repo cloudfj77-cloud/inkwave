@@ -2,10 +2,15 @@
   <img src="assets/stages/halyard-day.webp" alt="黄金时刻的 Halyard Marina" width="100%">
 </p>
 
-<h1 align="center">INKWAVE</h1>
+<h1 align="center">INKWAVE 中文版</h1>
+
+**中文版 v1.1.1** · 本仓库由 `cloudfj77-cloud` 维护，基于 `yejunweb/inkwave` 保存的原作者快照 `679d2db`。游戏默认使用简体中文，设置中仍可切换 English；原作者为 Jayden Davis，MIT 许可与版权声明保留。
+
+本次汉化内容见 [更新记录](CHANGELOG.zh-CN.md)。
+
 
 <p align="center">
-  <a href="README.md">English</a> · <b>简体中文</b>
+  <a href="README.en.md">English</a> · <b>简体中文</b>
 </p>
 
 <p align="center">
@@ -14,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://inkwave-aah.pages.dev"><b>▶ 立即游玩</b></a> ·
+  <a href="https://inkwave-aah.pages.dev"><b>▶ 原版在线试玩</b></a> ·
   <a href="#操作">操作</a> ·
   <a href="#联机对战">联机</a> ·
   <a href="#本地运行">本地运行</a> ·
@@ -23,7 +28,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jaydendavisnc/inkwave/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/jaydendavisnc/inkwave/actions/workflows/ci.yml/badge.svg"></a>
   <img alt="three.js r186" src="https://img.shields.io/badge/three.js-r186-000000?logo=three.js&logoColor=white">
   <img alt="无需构建" src="https://img.shields.io/badge/build-none%20needed-2ea44f">
   <a href="LICENSE"><img alt="MIT" src="https://img.shields.io/badge/license-MIT-blue"></a>
@@ -37,7 +41,7 @@
 - **与好友联机。** 创建私人房间，分享五位字符的房间码，最多八名玩家带着各自的装备和外观进入大厅。空位由机器人补齐；中途有人掉线，机器人会接管他的乌贼小子。
 - **乌贼形态。** 按住即可潜入自己的墨水：快速游动、补充墨罐、攀爬已涂的墙面、在墨水上跃过水面缺口。
 - **十二种武器**，手感各不相同：Spritzer、Twinfire Pistols、Canopy Brolly（霰弹枪 + 可发射护盾）、Popper Blaster、Squall Spinner、Glint Charger、Tideline Bow（三箭齐发、两段蓄力）、Swell Roller、Swish Brush、Brine Cutlass（蓄力一击斩）、Sponge Mitts（墨拳、蓄力跳跃、攀墙）以及 Bilge Bucket。任意主武器都可搭配 15 种副武器与 19 种大招。
-- **七张地图，白天或黄昏。** Tidewater Plaza、Kelpline Terminal、Halyard Marina、Saltpan Basin、Crossroads Market、Lockgate Canals 与 Terrace Heights，每张都是真实地点，布局各异。部分地图在区域控制模式下会更换少量构件。
+- **八张地图，白天或黄昏。** 海滨钟楼广场、绞缆码头、吊索船坞、盐田盆地、十字路口市集、船闸运河、阶梯高地与货柜码头。货柜码头仅限真人联机，其余七张可与机器人对战。部分地图在区域控制模式下会更换少量构件。
 - **像液体一样的墨水。** 墨点会扩散并沉降，新墨有光泽而逐渐干燥，墨迹会沿墙流淌，游动时水面本身也会留下尾迹。
 - **真正能看懂的地图。** 按住 <kbd>Tab</kbd>，镜头会升起变成实时战场的一幅微缩模型视角，标有队友位置，并可一键超级跳跃。
 - **衣柜系统。** 自定义你的乌贼小子：触手发型、头部装备、面部、服装。
@@ -66,7 +70,7 @@
 
 ## 联机对战
 
-在主菜单选择 **Online**，然后选择 **Create a room** 并把房间码发给好友（或选择 **Join a room** 输入对方的房间码）。
+在主菜单选择 **联机**，然后选择 **创建房间** 并把房间码发给好友（或选择 **加入房间** 输入对方的房间码）。
 房主决定地图、昼夜时段、对局时长以及是否用机器人补位；其他人在各自选好队伍、武器和外观后准备。
 阵容、表情动作和准备状态对房间内所有人实时同步。
 
@@ -88,7 +92,7 @@ npm run relay    # ws://<本机>:8787
 本项目没有构建步骤。任何静态文件服务器都可以；自带的服务脚本还能同时向局域网提供服务，并发送 no-cache 头，确保模块更新不会出现缓存陈旧的问题。
 
 ```bash
-git clone https://github.com/jaydendavisnc/inkwave.git
+git clone https://github.com/cloudfj77-cloud/inkwave.git
 cd inkwave
 npm install      # Electron + 无头测试工具
 npm start        # 桌面应用（Electron）
@@ -128,7 +132,7 @@ npm run check-maps   # 检查每张地图布局（及其区域控制变体）
 
 ## 界面语言
 
-游戏内置英文与简体中文界面：**设置 → 通用 → 语言**。选择会保存在本地，切换后立即生效。
+游戏默认使用简体中文，也可切换为英文：**设置 → 通用 → 语言**。选择会保存在本地，切换后立即生效。
 
 ## 参与贡献
 
